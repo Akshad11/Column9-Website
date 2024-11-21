@@ -1,0 +1,39 @@
+.Navbar_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+  /* margin: 0px 40px, 0px, 40px; */
+}
+.applogo {
+  padding-right: 20px;
+}
+.unlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav_list {
+  padding-left: 40px;
+}
+.nav_list:hover {
+  color: blue;
+}
+
+.Nav_input_box {
+  width: 270px;
+  height: 35px;
+  font-size: 19px;
+  border-radius: 5px;
+  border: 2px solid rgb(182, 182, 182);
+  padding: 0px 10px 0px 10px;
+}
+
+.Nav_input_box:hover {
+  border: 2px solid rgb(143, 158, 199);
+}
+
+.Nav_input_LoginIcon {
+}

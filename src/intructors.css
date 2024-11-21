@@ -1,0 +1,39 @@
+.Intructors-div h1 {
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.Int_top-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Int_scroll-div {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Int_scroll-div img {
+  width: 70px;
+  padding: 10px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.Int_scroll-div h3 {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgb(116, 116, 116);
+}
+
+.Int_scroll-div h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}

@@ -1,0 +1,65 @@
+.Exam_div {
+  width: 100%;
+  padding-top: 50px;
+  background-color: rgb(240, 255, 250);
+}
+
+.Exam_top-div {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ex_img-div {
+  width: 50%;
+}
+
+.Ex_img-div img {
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.Ex_text-div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ex_text-div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  height: 300px;
+  width: 400px;
+  text-align: start;
+}
+
+.Ex_text-div h2 {
+  font-size: 40px;
+  font-weight: 900;
+  place-self: start;
+  color: rgba(15, 117, 107, 1);
+}
+
+.Ex_text-div h3 {
+  font-size: 23px;
+  text-align: start;
+  padding: 10px 0px 10px 0px;
+  color: black;
+}
+
+.Ex_text-div p {
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.Ex_text-div button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1 solid black;
+  place-self: start;
+}
