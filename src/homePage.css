@@ -2,7 +2,9 @@
   position: relative;
   display: inline-block;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Home-div::before {
@@ -17,15 +19,12 @@
   pointer-events: none;
 }
 
-.Home-div>* {
+.Home-div > * {
   position: relative;
   z-index: 2;
 }
 
-
 .Header_div {
-  width: 100%;
-  height: 80vh;
   /* background-image: url("Images/2pplPhoto.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,8 +35,6 @@
 }
 
 .h_text-div {
-  width: 50%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,15 +42,11 @@
 }
 
 .h_text-div h1 {
-  font-size: 50px;
   text-align: start;
-  padding-right: 30px;
 }
 
 .h_text-div p {
-  font-size: 25px;
   text-align: start;
-  padding: 30px 30px 30px 0px;
 }
 
 .h_button-div {
@@ -63,39 +56,292 @@
 }
 
 .h_button-div button {
-  font-size: 17px;
-  padding: 10px;
-  margin-right: 20px;
   border-radius: 5px;
 }
 
 .h_img-div {
-  width: 50%;
-  height: 100%;
   display: flex;
   justify-content: start;
   align-items: end;
-
 }
 
 .h_img-div img {
-  width: 550px;
   border: none;
   border-radius: 5px;
-  height: 500px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .btn-exam {
-  background: rgba(76, 175, 80, 0.0);
+  background: rgba(76, 175, 80, 0);
   border-radius: 5px;
   border: 1px solid white;
   color: white;
-  width: 100px;
 }
-
 
 .btn-courses {
   border: none;
-  width: 150px;
+}
+
+.h_imghide {
+  display: none;
+}
+.h_imghide2 {
+}
+
+@media only screen and (max-width: 768px) {
+  .Home-div {
+  }
+
+  .Header_div {
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .h_text-div {
+    padding: 20px;
+  }
+
+  .h_text-div h1 {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+
+  .h_text-div p {
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  .h_button-div {
+  }
+
+  .h_button-div button {
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 20px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+  }
+
+  .h_img-div {
+  }
+
+  .h_img-div img {
+    width: 95%;
+    border-radius: 5px;
+    height: 300px;
+  }
+
+  .btn-exam {
+    width: 45%;
+  }
+
+  .btn-courses {
+    width: 45%;
+  }
+
+  .h_imghide {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: block;
+  }
+  .h_imghide2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Home-div {
+  }
+
+  .Header_div {
+    height: auto;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .h_text-div {
+    padding: 20px;
+  }
+
+  .h_text-div h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .h_text-div p {
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .h_button-div {
+    justify-content: center;
+  }
+
+  .h_button-div button {
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 20px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+  }
+
+  .h_img-div {
+  }
+
+  .h_img-div img {
+    width: 550px;
+    border-radius: 5px;
+    height: 400px;
+  }
+
+  .btn-exam {
+    width: 220px;
+  }
+
+  .btn-courses {
+    width: 220px;
+  }
+
+  .h_imghide {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: block;
+  }
+  .h_imghide2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Home-div {
+    flex-direction: row;
+  }
+
+  .Header_div {
+    width: 100%;
+    height: auto;
+  }
+
+  .h_text-div {
+    width: 50%;
+    height: 100%;
+    padding: 40px 0px 40px 0px;
+  }
+
+  .h_text-div h1 {
+    font-size: 50px;
+    padding-right: 30px;
+  }
+
+  .h_text-div p {
+    font-size: 25px;
+    padding: 30px 30px 30px 0px;
+  }
+
+  .h_button-div {
+  }
+
+  .h_button-div button {
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .h_img-div {
+    padding: 40px 0px 40px 0px;
+
+    width: 50%;
+    height: 100%;
+  }
+
+  .h_img-div img {
+    width: 400px;
+    border-radius: 5px;
+    height: 300px;
+  }
+
+  .btn-exam {
+    width: 100px;
+  }
+
+  .btn-courses {
+    width: 150px;
+  }
+
+  .h_imghide {
+    display: none;
+  }
+  .h_imghide2 {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Home-div {
+    flex-direction: row;
+  }
+
+  .Header_div {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .h_text-div {
+    width: 50%;
+    height: 100%;
+  }
+
+  .h_text-div h1 {
+    font-size: 50px;
+    padding-right: 30px;
+  }
+
+  .h_text-div p {
+    font-size: 25px;
+    padding: 30px 30px 30px 0px;
+  }
+
+  .h_button-div {
+  }
+
+  .h_button-div button {
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .h_img-div {
+    width: 50%;
+    height: auto;
+    align-items: center;
+  }
+
+  .h_img-div img {
+    width: 550px;
+    border-radius: 5px;
+    height: 400px;
+  }
+
+  .btn-exam {
+    width: 100px;
+  }
+
+  .btn-courses {
+    width: 150px;
+  }
+  .h_imghide2 {
+    display: block;
+  }
 }

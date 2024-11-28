@@ -15,9 +15,12 @@ import Scroll6 from "./Images/scroll6.png";
 import Scroll7 from "./Images/scroll7.png";
 import Scroll8 from "./Images/scroll8.png";
 import offersImg from "./Images/offersImg.png";
+import ExamImg from "./Images/Exampic.png";
+
 import Intructors from "./Intructors";
 import GetInTouch from "./GetInTouch";
 import Footer from "./FooterPage";
+import React from "react";
 
 export default function App() {
   const Textdata = [
@@ -37,9 +40,7 @@ export default function App() {
 
   return (
     <div className="App">
-
       <Navbar_main />
-
       <HomePage />
       <EnrollPage />
       <Offer
@@ -52,6 +53,7 @@ export default function App() {
         Aliquam"
         btnText="Explore our courses"
         img={offersImg}
+        isre={false}
       />
 
       <ScrollView
@@ -59,7 +61,19 @@ export default function App() {
         textList={Textdata}
         imgList={Imgdata}
       />
-      <ExamPage />
+
+      <Offer
+        title=""
+        headText="Online Exams"
+        subheadText="Our exams prepare you for job opportunity"
+        pText=" Lorem ipsum dolor sit at, consectetur adipielit. Facilisi
+        fermentum, dignissim pharetra. Aliquam Lorem ipsum dolor sit at,
+        consectetur adipielit. Facilisi fermentum, dignissim pharetra.
+        Aliquam"
+        btnText="Explore exams"
+        img={ExamImg}
+        isre={true}
+      />
       <ScrollView
         title="Test your ability here"
         textList={Textdata}
@@ -72,6 +86,7 @@ export default function App() {
         pText="Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra. Aliquam Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra. Aliquam "
         btnText="See  publications"
         img={Scroll5}
+        isre={false}
       />
       <ScrollView
         title="Recent Publications"

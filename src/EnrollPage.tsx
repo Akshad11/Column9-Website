@@ -5,7 +5,7 @@ export default function EnrollPage() {
     <div className="enroll_div">
       <h1>Enrol for a couse now</h1>
       <div className="enroll_top-div">
-        <div className="e_text-div">
+        <div className="e_text-div enroll_hide">
           <div>
             <h2>
               Take your career to <br />

@@ -1,4 +1,3 @@
-import ExamImg from "./Images/Exampic.png";
 import "./examPage.css";
 
 export default function ExamPage() {
@@ -18,9 +17,7 @@ export default function ExamPage() {
             <button type="submit">Explore exams</button>
           </div>
         </div>
-        <div className="Ex_img-div">
-          <img src={ExamImg} alt="Image" />
-        </div>
+        <div className="Ex_img-div"></div>
       </div>
     </div>
   );

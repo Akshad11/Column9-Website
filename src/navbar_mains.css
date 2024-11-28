@@ -2,11 +2,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 40px;
   /* margin: 0px 40px, 0px, 40px; */
 }
 .applogo {
-  padding-right: 20px;
 }
 .unlist {
   display: flex;
@@ -16,19 +14,14 @@
   list-style-type: none;
 }
 .nav_list {
-  padding-left: 40px;
 }
 .nav_list:hover {
   color: blue;
 }
 
 .Nav_input_box {
-  width: 270px;
-  height: 35px;
-  font-size: 19px;
   border-radius: 5px;
   border: 2px solid rgb(182, 182, 182);
-  padding: 0px 10px 0px 10px;
 }
 
 .Nav_input_box:hover {
@@ -36,4 +29,176 @@
 }
 
 .Nav_input_LoginIcon {
+}
+.Nav_icon_bars {
+  display: none;
+}
+.Nav_icon_search {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar_div {
+    padding: 20px;
+    position: relative;
+  }
+  .applogo {
+    padding-right: 20px;
+  }
+  .unlist {
+    background-color: antiquewhite;
+    position: absolute;
+    width: 60%;
+    top: 100%;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    text-align: start;
+  }
+
+  .nav_menuhide {
+    left: -60%;
+  }
+
+  .nav_menushow {
+    left: 0;
+  }
+  .nav_list {
+  }
+
+  .Nav_input_box {
+    width: 270px;
+    height: 35px;
+    font-size: 19px;
+    padding: 0px 10px 0px 10px;
+    display: none;
+  }
+
+  .Nav_input_box:hover {
+    border: 2px solid rgb(143, 158, 199);
+  }
+
+  .Nav_input_LoginIcon {
+  }
+
+  .Nav_icon_bars {
+    display: block;
+  }
+  .Nav_icon_search {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Navbar_div {
+    padding: 20px;
+    position: relative;
+  }
+  .applogo {
+    padding-right: 20px;
+  }
+  .unlist {
+    background-color: antiquewhite;
+    position: absolute;
+    width: 60%;
+    top: 100%;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-evenly;
+    text-align: start;
+  }
+
+  .nav_menuhide {
+    left: -60%;
+  }
+
+  .nav_menushow {
+    left: 0;
+  }
+  .nav_list {
+  }
+
+  .Nav_input_box {
+    width: 270px;
+    height: 35px;
+    font-size: 19px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .Nav_input_box:hover {
+    border: 2px solid rgb(143, 158, 199);
+  }
+
+  .Nav_input_LoginIcon {
+  }
+
+  .Nav_icon_bars {
+    display: block;
+  }
+  .Nav_icon_search {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Navbar_div {
+    height: 100px;
+    padding: 0px 40px 0px 40px;
+  }
+  .applogo {
+    padding-right: 20px;
+  }
+  .unlist {
+    position: static;
+    flex-direction: row;
+    background-color: white;
+    gap: 10px;
+  }
+  .nav_list {
+  }
+
+  .Nav_input_box {
+    width: 170px;
+    height: 35px;
+    font-size: 19px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .Nav_input_box:hover {
+    border: 2px solid rgb(143, 158, 199);
+  }
+
+  .Nav_input_LoginIcon {
+  }
+  .Nav_icon_bars {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Navbar_div {
+    height: 100px;
+  }
+  .applogo {
+    padding-right: 20px;
+  }
+  .unlist {
+  }
+  .nav_list {
+    padding-left: 40px;
+  }
+
+  .Nav_input_box {
+    width: 270px;
+    height: 35px;
+    font-size: 19px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .Nav_input_box:hover {
+    border: 2px solid rgb(143, 158, 199);
+  }
+
+  .Nav_input_LoginIcon {
+  }
 }
